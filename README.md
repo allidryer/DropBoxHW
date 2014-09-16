@@ -6,7 +6,7 @@ Time spent: 10 hours spent in total
 
 Completed user stories:
 
-- User can tap through the 3 welcome screens.
+- User can tap (swipe) through the 3 welcome screens.
 - User can follow the create user flow.
 - On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
 - Before creating the account, user can choose to read the terms of service.
