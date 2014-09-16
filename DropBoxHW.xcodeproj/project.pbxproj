@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AB1957119C8D71100F067F8 /* ScrollWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB1957019C8D71100F067F8 /* ScrollWelcomeViewController.swift */; };
 		6CD760B419C21309003537C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760B319C21309003537C3 /* AppDelegate.swift */; };
 		6CD760B619C21309003537C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760B519C21309003537C3 /* ViewController.swift */; };
 		6CD760B919C21309003537C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CD760B719C21309003537C3 /* Main.storyboard */; };
 		6CD760BB19C21309003537C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD760BA19C21309003537C3 /* Images.xcassets */; };
 		6CD760BE19C21309003537C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CD760BC19C21309003537C3 /* LaunchScreen.xib */; };
 		6CD760CA19C21309003537C3 /* DropBoxHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760C919C21309003537C3 /* DropBoxHWTests.swift */; };
+		6CD760D419C23BD4003537C3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760D319C23BD4003537C3 /* SignInViewController.swift */; };
+		6CD760D619C23C0A003537C3 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760D519C23C0A003537C3 /* CreateAccountViewController.swift */; };
+		6CD760D819C23DFE003537C3 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760D719C23DFE003537C3 /* CreateAccountRootViewController.swift */; };
+		6CD760DA19C23E10003537C3 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760D919C23E10003537C3 /* SignInRootViewController.swift */; };
+		6CD760DC19C79580003537C3 /* DropboxAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760DB19C79580003537C3 /* DropboxAppViewController.swift */; };
+		6CD760DE19C7C09B003537C3 /* PhotoScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD760DD19C7C09B003537C3 /* PhotoScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AB1957019C8D71100F067F8 /* ScrollWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollWelcomeViewController.swift; sourceTree = "<group>"; };
 		6CD760AE19C21309003537C3 /* DropBoxHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBoxHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD760B219C21309003537C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD760B319C21309003537C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,12 @@
 		6CD760C319C21309003537C3 /* DropBoxHWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBoxHWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD760C819C21309003537C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CD760C919C21309003537C3 /* DropBoxHWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropBoxHWTests.swift; sourceTree = "<group>"; };
+		6CD760D319C23BD4003537C3 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6CD760D519C23C0A003537C3 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		6CD760D719C23DFE003537C3 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		6CD760D919C23E10003537C3 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
+		6CD760DB19C79580003537C3 /* DropboxAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropboxAppViewController.swift; sourceTree = "<group>"; };
+		6CD760DD19C7C09B003537C3 /* PhotoScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 		6CD760A519C21309003537C3 = {
 			isa = PBXGroup;
 			children = (
+				4AB1957019C8D71100F067F8 /* ScrollWelcomeViewController.swift */,
 				6CD760B019C21309003537C3 /* DropBoxHW */,
 				6CD760C619C21309003537C3 /* DropBoxHWTests */,
 				6CD760AF19C21309003537C3 /* Products */,
@@ -80,6 +95,12 @@
 				6CD760B319C21309003537C3 /* AppDelegate.swift */,
 				6CD760B519C21309003537C3 /* ViewController.swift */,
 				6CD760B719C21309003537C3 /* Main.storyboard */,
+				6CD760DD19C7C09B003537C3 /* PhotoScrollViewController.swift */,
+				6CD760DB19C79580003537C3 /* DropboxAppViewController.swift */,
+				6CD760D719C23DFE003537C3 /* CreateAccountRootViewController.swift */,
+				6CD760D919C23E10003537C3 /* SignInRootViewController.swift */,
+				6CD760D319C23BD4003537C3 /* SignInViewController.swift */,
+				6CD760D519C23C0A003537C3 /* CreateAccountViewController.swift */,
 				6CD760BA19C21309003537C3 /* Images.xcassets */,
 				6CD760BC19C21309003537C3 /* LaunchScreen.xib */,
 				6CD760B119C21309003537C3 /* Supporting Files */,
@@ -212,7 +233,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD760D819C23DFE003537C3 /* CreateAccountRootViewController.swift in Sources */,
+				6CD760D619C23C0A003537C3 /* CreateAccountViewController.swift in Sources */,
+				4AB1957119C8D71100F067F8 /* ScrollWelcomeViewController.swift in Sources */,
+				6CD760DE19C7C09B003537C3 /* PhotoScrollViewController.swift in Sources */,
+				6CD760DC19C79580003537C3 /* DropboxAppViewController.swift in Sources */,
+				6CD760DA19C23E10003537C3 /* SignInRootViewController.swift in Sources */,
 				6CD760B619C21309003537C3 /* ViewController.swift in Sources */,
+				6CD760D419C23BD4003537C3 /* SignInViewController.swift in Sources */,
 				6CD760B419C21309003537C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +364,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DropBoxHW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +376,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DropBoxHW/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +437,7 @@
 				6CD760CF19C21309003537C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CD760D019C21309003537C3 /* Build configuration list for PBXNativeTarget "DropBoxHWTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				6CD760D219C21309003537C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
