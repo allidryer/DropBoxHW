@@ -20,6 +20,6 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-![alt tag](http://url/to/img.png)
+![alt tag](https://github.com/allidryer/DropBoxHW/blob/4328b3263e3aa8397841850d08447a81bf890179/DropBoxHW.gif)
 
 GIF created with LiceCap.
